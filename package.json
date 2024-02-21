@@ -1,0 +1,15 @@
+{
+  "name": "simple-package",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "start": "webpack serve --env NODE_ENV=development",
+    "dev": "webpack --env NODE_ENV=development",
+    "build": "webpack --env NODE_ENV=production --progress",
+    "ts": "tsc --build"
+  },
+  "devDependencies": {
+  }
+}
